@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tela de Login 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <script src="https://kit.fontawesome.com/e43694a111.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="box">
+                <div class="header">
+                    <h1><span><i class="fas fa-lock lock"></i></span>Loggit</h1>
+                    <p>Please <span>Login</span> or <span>Register</span></p>
+                </div>
+                <form action="" method="POST" class="form">
+                    <div class="input">
+                        <input type="email" name="email" placeholder="Email" autocomplete="off" required>
+                        <i class="fas fa-envelope "></i>
+                    </div>
+                    <div class="input">
+                        <input type="password" name="password" minlength="6" maxlength="8" placeholder="Password" required>
+                        <i class="fas fa-key "></i>
+                    </div>
+                    <input type="checkbox" name="manterlogado" value="manterlogado" id="logado">
+                    <label for="logado">Keep me Logged in</label>
+                    <div class="login">
+                        <input type="submit" value="Log In">
+                    </div>
+                </form>
+                <div class="footer">
+                    <p>Don't have an account? <a href="#">Register Now</a></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
