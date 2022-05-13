@@ -19,13 +19,14 @@ Com o objetivo de aprender como HTML e CSS funciona, eu fiz a minha segunda tela
 ## :desktop_computer: Padronização de código
 -   [Prettier](https://prettier.io/)
 
-## :rocket: Executando o projeto
+<!-- ## :rocket: Executando o projeto
 
 ➡️ **Download do projeto**
 ```bash
-git clone https://github.com/tarsolima/TeladeLogin1.git
+git clone https://github.com/tarsolima/TeladeLogin2.git
 ```
 ➡️ **Acessando a pasta do projeto depois do clone do projeto**
 ```bash
-cd TeladeLogin1
+cd TeladeLogin2
 ```
+ -->
